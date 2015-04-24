@@ -7,8 +7,8 @@ android:
     - build-tools 21.1.2
     - sys-img-armeabi-v7a-android-21
     - android-21
-    - extra-android-support
-    - platform-tools
+    - add-on
+    - extra
     
 branches:
   except:
