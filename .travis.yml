@@ -8,6 +8,7 @@ android:
     - sys-img-armeabi-v7a-android-21
     - android-21
     - extra-android-support
+    - platform-tools
     
 branches:
   except:
