@@ -3,7 +3,23 @@ language: android
 android:
   components:
     - build-tools 21.1.2
-    - android-22
+    - sys-img-armeabi-v7a-android-21
+    - platform-tools
+    - tools
+    - extra-android-support
+    - add-on
+    - extra
+    
+  licenses:
+    - 'android-sdk-preview-license-52d11cd2'
+    - 'android-sdk-license-.+'
+    - 'google-gdk-license-.+'
+    
+branches:
+  except:
+    - gh-pages
+    
+notifications:
+  email: false
 
 sudo: false
-
