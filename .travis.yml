@@ -9,6 +9,8 @@ android:
     - android-21
     - extra
     
+script: "./gradlew test --continue"
+    
 branches:
   except:
     - gh-pages
